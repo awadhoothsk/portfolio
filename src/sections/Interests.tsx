@@ -31,9 +31,9 @@ const Interests: React.FC = () => (
         <FaCode className="interest-icon" />
         <h3>Hobbies</h3>
         <p>
-            I enjoy playing chess as it boosts analytics skills and strategic thinking. I also like to read books, especially fiction, which helps me unwind and stimulates my imagination.
+          I enjoy playing chess as it boosts analytics skills and strategic thinking. I also like to read books, especially fiction, which helps me unwind and stimulates my imagination.
         </p>
-        </div>
+      </div>
     </div>
   </section>
 );

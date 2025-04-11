@@ -9,13 +9,13 @@ const Education: React.FC = () => (
       <p><strong>Institution:</strong> Siddaganga Institute of Technology (SIT), Tumakuru</p>
       <p><strong>Status:</strong> Currently Pursuing</p>
     </div>
-    
+
     <div className="education-card">
       <h3>Pre-University Education( 12th )</h3>
       <p><strong>Institution:</strong> Sri Sathya Sai Loka Seva PU College, Alike</p>
       <p><strong>Status:</strong> Completed</p>
     </div>
-    
+
     <div className="education-card">
       <h3>Secondary Education (10th Grade)</h3>
       <p><strong>Institution:</strong> Sri Sathya Sai Loka Seva Vidyakendra , Alike</p>

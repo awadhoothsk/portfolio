@@ -1,39 +1,3 @@
-// // File: src/App.tsx
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-// import Navbar from './components/Navbar';
-// import Profile from './sections/Profile';
-// import About from './sections/About';
-// import WorkExperience from './sections/WorkExperience';
-// import Projects from './sections/Projects';
-// import Interests from './sections/Interests';
-// import Education from './sections/Education';
-// import Contact from './sections/Contact';
-// import Footer from './sections/Footer';
-
-// const App: React.FC = () => {
-//   return (
-//     <Router>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Navigate to="/profile" replace />} />
-//         <Route path="/profile" element={<><Profile /><Footer /></>} />
-//         <Route path="/about" element={<><About /><Footer /></>} />
-//         <Route path="/work-experience" element={<><WorkExperience /><Footer /></>} />
-//         <Route path="/projects" element={<><Projects /><Footer /></>} />
-//         <Route path="/interests" element={<><Interests /><Footer /></>} />
-//         <Route path="/education" element={<><Education /><Footer /></>} />
-//         <Route path="/contact" element={<><Contact /><Footer /></>} />
-//       </Routes>
-//     </Router>
-//   );
-// };
-
-// export default App;
-
-
-
-
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
