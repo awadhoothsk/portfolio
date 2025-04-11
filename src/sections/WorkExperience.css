@@ -1,0 +1,69 @@
+.work-section {
+    padding: 2rem;
+    max-width: 768px;
+    margin: 2rem auto;
+    background-color: rgba(0, 0, 0, 0.6); /* dark translucent background */
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .work-section:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .work-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    position: relative;
+    display: inline-block;
+  }
+  
+  .work-section h2::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #ffcc00; /* Yellow underline */
+    bottom: -6px;
+    left: 0;
+    border-radius: 2px;
+  }
+  .work-section {
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .work-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #c5b522;
+    padding: 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+  }
+  
+  .work-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-4px);
+  }
+  
+  .work-icon {
+    font-size: 2.5rem;
+    color: #c5b522;
+    margin-top: 4px;
+  }
+  
+  .work-details h3 {
+    margin-bottom: 0.3rem;
+    color: #c5b522;
+  }
+  
