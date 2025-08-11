@@ -1,0 +1,92 @@
+.education-section {
+  padding: 3rem 1.5rem;
+  background: linear-gradient(to right, #1c1c1c, #111);
+  color: #f0f0f0;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #00f0ff;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.education-title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: #00f0ff;
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.education-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1.5rem;
+}
+
+.education-card {
+  background-color: #1f1f1f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.08);
+  border: 1px solid #00f0ff10;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  border-color: #00f0ff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.education-degree,
+.education-institution,
+.education-status,
+.education-percentage,
+.education-batch {
+  font-size: 1.2rem;
+  /* Increased font size for all details */
+  color: #ccc;
+  margin: 0.3rem 0;
+  line-height: 1.6;
+}
+
+.education-degree {
+  font-weight: 600;
+  color: #00f0ff;
+  margin-bottom: 0.6rem;
+}
+
+/* Specific styling for degree (title) */
+.education-degree {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #00f0ff;
+  margin-bottom: 0.6rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

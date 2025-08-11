@@ -1,0 +1,103 @@
+/* Profile Section */
+.profile-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #121212, #1f1f1f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  min-height: 60vh;
+}
+
+/* Profile container */
+.profile-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for image */
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+/* Profile info container */
+.profile-info {
+  max-width: 800px;
+}
+
+/* Profile name */
+.profile-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #00f0ff, #00ff9c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-name:hover {
+  background: linear-gradient(to right, #ff00ff, #ff9900); /* New gradient on hover */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.05);
+}
+
+  
+/* Profile role (tagline) */
+.profile-role {
+  font-size: 1.4rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+.profile-role:hover {
+  color: #00f0ff;
+  transition: color 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* Resume Button */
+.resume-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #00f0ff;
+  color: #121212;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #00ff9c;
+  transform: scale(1.05);
+}
+
+.resume-button:focus {
+  outline: none;
+}

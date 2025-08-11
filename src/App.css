@@ -1,0 +1,41 @@
+.main-content {
+  padding: 2rem;
+  min-height: calc(100vh - 120px);
+  /* Adjust based on header/footer */
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global Background Animation */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  background: linear-gradient(to right, #00f0ff, #00ff9c);
+  /* Gradient background */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  /* The animation is continuous */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
